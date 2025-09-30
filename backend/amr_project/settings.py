@@ -120,3 +120,10 @@ except Exception:
 # ~10 MB in-memory parse; larger files will be streamed (tweak as needed)
 DATA_UPLOAD_MAX_MEMORY_SIZE = 10 * 1024 * 1024
 FILE_UPLOAD_MAX_MEMORY_SIZE = 10 * 1024 * 1024
+
+# Added Render host
+ALLOWED_HOSTS = [
+    "thehunt-1ble.onrender.com",
+    "localhost",
+    "127.0.0.1"
+]
